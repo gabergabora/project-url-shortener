@@ -2,7 +2,7 @@ const express = require('express');
 const { connection } = require("./config/db");
 const { shortRouter } = require("./routes/shortener.route");
 const { adminRouter } = require("./routes/admin.route");
-const { authRouter } = require("./routes/oAuth.route");
+const { authRouter } = require("./routes/oAuth.route");                
 require("dotenv").config();
 
 const PORT = process.env.PORT;
